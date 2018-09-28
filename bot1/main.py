@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding:utf-8
 
-# TelegramBotDemo - main.py
+# TelegramBotWeb - main.py
 # 2018/9/26 16:54
 
-__author__ = "WangYuan <wangyuan20@jd.com>"
+__author__ = "WangYuan <owensnow@qq.com>"
 
 import telebot
 from bot1.models import ToDoList
