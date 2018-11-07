@@ -13,7 +13,8 @@ import time
 
 telebot.logger.setLevel(logging.DEBUG)
 
-API_TOKEN = '670941114:AAHBBrx7ke3b45VYXI3dApazyBmpXyY53qE'
+#API_TOKEN = '670941114:AAHBBrx7ke3b45VYXI3dApazyBmpXyY53qE'
+API_TOKEN = '756612443:AAEWZTUkf_JvuA4DvJ4h81Npg7FXgjQBbgs'
 bot = telebot.TeleBot(API_TOKEN)
 
 
@@ -40,7 +41,7 @@ def send_welcome(message):
     tdL.context = context
     tdL.createdTime = time.time()
     tdL.save()
-    bot.send_message(message.chat.id, "had record your todoList.You can input /list to check")
+    bot.send_message(message.chat.id, "had record your todoList.You can input /list to check ")
 
 
 @bot.message_handler()
